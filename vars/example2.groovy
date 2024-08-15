@@ -14,7 +14,7 @@ def call(String saywhat = "nothing") {
     } else {
         script {
             sh """
-                echo Whats up Alice
+                echo Whats up ${saywhat}
             """
         }
     }
